@@ -8,6 +8,13 @@ const fevrier = require("./fevrier")
 app.get('/janvier', (req, res) => {
     res.send(janvier)
 })
+
+app.get('/janvier/:day', (req, res) => {
+    const day = req.params.day;
+    let persons = janvier.filter(jour => jour.day == +day)
+    res.send(persons)
+})
+
 app.get('/fevrier', (req, res) => {
     res.send(fevrier)
 })
