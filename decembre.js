@@ -1484,4 +1484,4 @@ const decembre = [
     }
   ]
 
-  module.exports = novembre
+  module.exports = decembre

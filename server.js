@@ -2,7 +2,16 @@ const express = require("express");
 const app = express();
 const janvier = require("./janvier")
 const fevrier = require("./fevrier")
-
+const mars = require("./mars")
+const avril = require("./avril")
+const mai = require("./mai")
+const juin = require("./juin")
+const juillet = require("./juillet")
+const aout = require("./aout")
+const septembre = require("./septembre")
+const octobre = require("./octobre")
+const novembre = require("./novembre")
+const decembre = require("./decembre")
 
 // Route GET pour récupérer la liste des personnes d'un mois donné
 
